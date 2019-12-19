@@ -31,7 +31,9 @@ Contoh Kode :
     print(w, x, y, z, sep='- - - - -')
 
 Output yang didapat :
+
 ![](https://github.com/aditya-sultan/latihan2/blob/master/Capture1.PNG)
+
 Kita bisa mengisi sep='isi_disini' dengan string atau karakter apapun.
 
 # Penggunaan string format
@@ -74,6 +76,7 @@ Contoh kode :
     print('{0:>3} {1:>16}'.format(10, 10 ** 10))
     
 Dalam contoh di atas terdapat { } yang berfungsi sebagai placeholder atau penempat arguments. Argument secara default urutannya adalah berurutan.
+
 ![](https://github.com/aditya-sultan/latihan2/blob/master/6_Output_String-f.png)
 
 Misalnya dalam contoh di atas, terdapat argument "0" dan "10 ** 0" didalam format(0, 10 ** 0), yang dipisah dengan tanda "," (koma), yang berarti "0" adalah argument pertama dan "10**0" adalah argument ke dua. Sedangkan angka 0 dan 1 di dalam placeholder, merupakan urutan yang kita masukan. Misalnya placeholder pada urutan pertama yaitu "{0:>3}" dan kita ingin mengganti menjadi "1" maka yang akan dicetak di placeholder pertama adalah output dari "10 ** 0". Contoh kode :
@@ -81,6 +84,7 @@ Misalnya dalam contoh di atas, terdapat argument "0" dan "10 ** 0" didalam forma
      print('{1:>3} {0:>16}'.format(0, 10 ** 0))
      
  Output yang didapat :
+ 
  ![](https://github.com/aditya-sultan/latihan2/blob/master/Capture4.PNG)
  
  # Lab2
@@ -102,6 +106,7 @@ Contoh kode :
     print('hasil pembagian {} & {} = %d'.format(a, b) % (a / b))
     
  Output yang didapat:
+ 
  ![](https://github.com/aditya-sultan/latihan2/blob/master/Capture5.PNG)
  
 Input dimasukan dengan cara menjalankan program terlebih dahulu, kemudian data dimasukan oleh user (Lihat angka 10 & 6 hijau) dengan diikuti keterangan berupa string "masukan nilai a:". Lalu input di cetak menggunakan fungsi "print()", disertai keterangan "hasil penggabungan" seperti berikut. Kode :
