@@ -51,10 +51,12 @@ Contoh kode :
     print(9, 10 ** 9)  
     print(10, 10 ** 10)
     
- output
+ Output:
+ 
  ![](https://github.com/aditya-sultan/latihan2/blob/master/Capture2.PNG)
  
  kita akan membuat outputnya seperti berikut:
+ 
  ![](https://github.com/aditya-sultan/latihan2/blob/master/Capture3.PNG)
  
  # Dengan kode:
